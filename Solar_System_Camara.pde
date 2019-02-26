@@ -20,7 +20,7 @@ void setup(){
 void draw(){
  background(img);
  text("Press SPACE to change view from Millenium Falcon", width/4, height/8);
- text("Use the numbers to move the ship.",width/4,2*height/8);
+ text("Use A,S,W,D to move the ship.",width/4,2*height/8);
  fill(232,132,12); //color
  planetas();
  nave();
